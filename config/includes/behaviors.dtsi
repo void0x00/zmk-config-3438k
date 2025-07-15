@@ -87,9 +87,10 @@ MASK_MODS(masked_end,  (MOD_LCTL), &kp END)
             tapping-term-ms = <210>;
             quick-tap-ms = <QUICK_TAP_MS>;
             require-prior-idle-ms = <165>;
-            flavor = "balanced";
+            flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <KEYS_R THUMBS>;
+            retro-tap;
             hold-trigger-on-release;
         };
         asl: alpha_shift_l {
@@ -97,9 +98,10 @@ MASK_MODS(masked_end,  (MOD_LCTL), &kp END)
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             quick-tap-ms = <QUICK_TAP_MS>;
-            flavor = "balanced";
+            flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <KEYS_R THUMBS>;
+            retro-tap;
             hold-trigger-on-release;
         };
         amr: alpha_mods_r {
@@ -108,9 +110,10 @@ MASK_MODS(masked_end,  (MOD_LCTL), &kp END)
             tapping-term-ms = <210>;
             quick-tap-ms = <QUICK_TAP_MS>;
             require-prior-idle-ms = <165>;
-            flavor = "balanced";
+            flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <KEYS_L THUMBS>;
+            retro-tap;
             hold-trigger-on-release;
         };
         asr: alpha_shift_r {
@@ -118,9 +121,10 @@ MASK_MODS(masked_end,  (MOD_LCTL), &kp END)
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             quick-tap-ms = <QUICK_TAP_MS>;
-            flavor = "balanced";
+            flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <KEYS_L THUMBS>;
+            retro-tap;
             hold-trigger-on-release;
         };
         ht: hold_tap {
