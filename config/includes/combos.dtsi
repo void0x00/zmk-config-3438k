@@ -44,7 +44,8 @@ COMBO(colon,  &kp COLON,   RB2 RB3,     DEF,          40, 100)
 
 // cross
 COMBO(capswd, &caps_word,  LM1 RM1,     DEF,          60, 200)
-COMBO(ralt,  &kp RALT,     LT1 RT1,     DEF,          60, 200)
+//COMBO(ralt,  &kp RALT,     LT1 RT1,     DEF,          60, 200)
+COMBO(lang1,  &kp LANG1,     LT1 RT1,     DEF,          60, 200)
 //COMBO(stdio, &studio_unlock, LM0 RM0,   SYS,          80, 100)
 //COMBO(def,    &to DEF,     LM0 RM0,         NUM NAV,  80, 100)
 //COMBO(batt,   &ind_bat,    LT0 RT0,     SYS,          80, 100)
