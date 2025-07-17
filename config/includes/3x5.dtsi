@@ -46,7 +46,7 @@
 //           ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮   ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
               &kp LBKT,      &kp N7,        &kp N8,        &kp N9,        &kp RBKT,          &kp C_AL_CALC, &mkp LCLK,     &mmv MOVE_UP,  &mkp RCLK,     &msc SCRL_UP, \
               &kp SEMI,      &kp N4,        &kp N5,        &kp N6,        &kp EQUAL,         &none,         &mmv MOVE_LEFT, &mmv MOVE_DOWN, &mmv MOVE_RIGHT, &msc SCRL_DOWN, \
-&kp L_EXP,    &kp GRAVE,     &kp N1,        &kp N2,        &kp N3,        &kp BSLH,          &kp C_STOP,    &kp C_PREV,    &kp C_NEXT,    &kp C_VOL_DN,  &kp C_VOL_UP,  &kp R_EXP, \
+&kp L_EXP,    &kp GRAVE,     &kp N1,        &kp N2,        &kp N3,        &kp BSLH,          &none,         &none,         &none,         &none,         &none,         &kp R_EXP, \
                                             &kp DOT,       &kp N0,        &kp MINUS,         &trans,        &trans,        &trans \
 //                                         ╰──────────────┴──────────────┴──────────────╯   ╰──────────────┴──────────────┴──────────────╯
             )>;
@@ -80,7 +80,7 @@
             display-name = "SYS";
             bindings = <LAYER_FROM38( \
 //           ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮   ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
-              &bootloader,   &sys_reset,    &soft_off,     &kp LG(L),     &sleep,            &none,         &uni_mdot,     &none,         &sys_reset,    &bootloader, \
+              &none,         &none,         &none,         &none,         &none,             &none,         &uni_mdot,     &none,         &none,         &none, \
               &out OUT_USB,  &out OUT_BLE,  &none,         &none,         &none,             &none,         &hwp_kg,       &hwp_grm,      &hwp_mg,       &hwp_vac, \
 &kp L_EXP,    &bt BT_CLR_ALL, &bt BT_SEL 0, &bt BT_SEL 1,  &bt BT_SEL 2,  &bt BT_CLR,        &hwp_pm,       &hwp_tmp,      &hwp_won,      &hwp_phi,      &hwp_mm,        &kp R_EXP, \
                                             &trans,        &trans,        &trans,            &trans,        &trans,        &trans \
