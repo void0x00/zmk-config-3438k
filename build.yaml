@@ -24,7 +24,7 @@ include:
     artifact-name: sweep_peripheral_right
 
  # totem
-  - board: xiao_ble
+  - board: seeeduino_xiao_ble
     shield: totem_dongle
 #    snippet: studio-rpc-usb-uart
 #    cmake-args: -DCONFIG_ZMK_STUDIO=y
