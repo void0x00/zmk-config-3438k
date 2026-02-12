@@ -4,7 +4,7 @@ include:
 
  # sweep
   - board: xiao_ble
-    shield: sweep_dongle dongle_display
+    shield: sweep_dongle
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: sweep_dongle
