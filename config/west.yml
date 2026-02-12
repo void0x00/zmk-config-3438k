@@ -48,8 +48,9 @@ manifest:
 #    - name: zmk-leader-key
 #      revision: v0.1+locality
 #      path: modules/zmk/leader-key
-#    - name: zmk-tri-state
-#      path: modules/zmk/tri-state
+    - name: zmk-tri-state
+      remote: urob
+      revision: main
     - name: zmk-rgbled-widget
       remote: caksoylar
       revision: main
