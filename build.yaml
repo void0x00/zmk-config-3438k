@@ -3,22 +3,22 @@
 include:
 
  # sweep
-#  - board: nice_nano
-#    shield: sweep_dongle dongle_display
-#    snippet: studio-rpc-usb-uart
-#    cmake-args: -DCONFIG_ZMK_STUDIO=y
-#    artifact-name: sweep_dongle
-  - board: nice_nano
+  - board: xiao_ble
+    shield: sweep_dongle dongle_display
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artifact-name: sweep_dongle
+  - board: nice_nano@2
     shield: sweep_left led_indicator
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: sweep_central_left
-#  - board: nice_nano
+#  - board: nice_nano@2
 #    shield: sweep_left led_indicator
 #    snippet: studio-rpc-usb-uart
 #    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
 #    artifact-name: sweep_peripheral_left
-  - board: nice_nano
+  - board: nice_nano@2
     shield: sweep_right led_indicator
     snippet: studio-rpc-usb-uart
     artifact-name: sweep_peripheral_right
@@ -45,6 +45,6 @@ include:
   # reset
   - board: xiao_ble
     shield: settings_reset
-  - board: nice_nano
+  - board: nice_nano@2
     shield: settings_reset
 
