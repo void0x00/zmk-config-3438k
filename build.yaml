@@ -3,7 +3,7 @@
 include:
 
  # sweep
-  - board: xiao_ble
+  - board: nice_nano@2
     shield: sweep_dongle
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
