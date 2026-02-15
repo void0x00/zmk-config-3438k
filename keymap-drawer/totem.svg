@@ -88,25 +88,25 @@ text.footer {
 }
 
 /* styling for combo tap, and key non-tap label text */
-text.combo, text.hold, text.shifted, text.left, text.right {
+text.combo, text.hold, text.shifted, text.left, text.right, text.tl, text.tr, text.bl, text.br {
     font-size: 11px;
 }
 
-text.hold {
+text.hold, text.bl, text.br {
     text-anchor: middle;
     dominant-baseline: auto;
 }
 
-text.shifted {
+text.shifted, text.tl, text.tr {
     text-anchor: middle;
     dominant-baseline: hanging;
 }
 
-text.left {
+text.left, text.tl, text.bl {
     text-anchor: start;
 }
 
-text.right {
+text.right, text.tr, text.br {
     text-anchor: end;
 }
 
@@ -1131,14 +1131,6 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>
 </g>
 <g class="combo combopos-0">
-<path d="M425,121 l-75,0" class="combo"/>
-<path d="M425,121 l75,0" class="combo"/>
-<rect rx="6" ry="6" x="411" y="108" width="28" height="26" class="combo"/>
-<text x="425" y="121" class="combo tap">
-<tspan x="425" dy="-0.6em">Studio</tspan><tspan x="425" dy="1.2em">Unlock</tspan>
-</text>
-</g>
-<g class="combo combopos-1">
 <path d="M425,36 h-89 a6.0,6.0 0 0 0 -6.0,6.0 v4" class="combo"/>
 <path d="M425,36 h89 a6.0,6.0 0 0 1 6.0,6.0 v4" class="combo"/>
 <rect rx="6" ry="6" x="411" y="23" width="28" height="26" class="combo"/>
@@ -1146,7 +1138,7 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="425" dy="-0.6em">Batt</tspan><tspan x="425" dy="1.2em">level</tspan>
 </text>
 </g>
-<g class="combo combopos-2">
+<g class="combo combopos-1">
 <path d="M425,4 h-148 a6.0,6.0 0 0 0 -6.0,6.0 v27" class="combo"/>
 <path d="M425,4 h148 a6.0,6.0 0 0 1 6.0,6.0 v27" class="combo"/>
 <rect rx="6" ry="6" x="411" y="-9" width="28" height="26" class="combo"/>

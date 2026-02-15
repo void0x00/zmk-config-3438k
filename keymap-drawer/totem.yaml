@@ -252,9 +252,6 @@ combos:
   k: Alt
   l: [DEF]
 - p: [14, 15]
-  k: Studio Unlock
-  l: [SYS]
-- p: [14, 15]
   k: {t: DEF, h: toggle}
   l: [NUM, NAV]
 - p: [4, 5]
